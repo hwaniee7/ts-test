@@ -13,11 +13,6 @@ var Test = function () {
     var numArr2 = [6, 7, 8, 9, 10];
     var strArr1 = ["봄", "여름", "가을", "겨울"];
     var strArr2 = ["Mon", "Tue", "Wed", "Thu", "Sat", "Sun"];
-    var tuple;
-    for (var i = 0; i < strArr1.length; i++) {
-        tuple = [strArr1[i], numArr1[i]];
-        console.log(tuple);
-    }
     return (react_1.default.createElement("div", null,
         react_1.default.createElement(reactstrap_1.Table, null,
             react_1.default.createElement("thead", null,
