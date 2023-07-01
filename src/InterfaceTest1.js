@@ -14,16 +14,17 @@ var InterfaceTest1 = function () {
         birthday: new Date("1998-06-20"),
         rank: "사원"
     };
-    return (react_1.default.createElement(reactstrap_1.Table, null,
-        react_1.default.createElement("thead", null),
-        react_1.default.createElement("tbody", null,
-            react_1.default.createElement("tr", null,
-                react_1.default.createElement("td", null, user.name),
-                react_1.default.createElement("td", null, user.age),
-                react_1.default.createElement("td", null, user.gender),
-                react_1.default.createElement("td", null, user.isAdult ? "성인" : ""),
-                react_1.default.createElement("td", null, user.isAdult),
-                react_1.default.createElement("td", null, user.rank))),
-        react_1.default.createElement("tfoot", null)));
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        react_1.default.createElement(reactstrap_1.Table, null,
+            react_1.default.createElement("thead", null),
+            react_1.default.createElement("tbody", null,
+                react_1.default.createElement("tr", null,
+                    react_1.default.createElement("td", null, user.name),
+                    react_1.default.createElement("td", null, user.age),
+                    react_1.default.createElement("td", null, user.gender),
+                    react_1.default.createElement("td", null, user.isAdult ? "성인" : ""),
+                    react_1.default.createElement("td", null, user.isAdult),
+                    react_1.default.createElement("td", null, user.rank))),
+            react_1.default.createElement("tfoot", null))));
 };
 exports.default = InterfaceTest1;

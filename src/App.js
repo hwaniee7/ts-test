@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import Types from "./Types";
 import TupleTest from "./TupleTest";
 import InterfaceTest1 from "./InterfaceTest1";
+import InterfaceTest2 from "./InterfaceTest2";
+import InterfaceTest3 from "./InterfaceTest3";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Types/>
       <TupleTest/>
       <InterfaceTest1/>
+      <InterfaceTest2/>
+      <InterfaceTest3/>
     </div>
   );
 }

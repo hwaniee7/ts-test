@@ -1,5 +1,5 @@
 import React from "react";
-import { Table } from "reactstrap";
+import { Table, Input, InputGroup, InputGroupText, Button } from "reactstrap";
 
 type Rank = "사장" |  "이사" | "부장" | "과장" | "대리" | "사원";
   
@@ -22,22 +22,24 @@ const InterfaceTest1:React.FC = () => {
         rank:"사원"
     } 
     return(
-        <Table>
-            <thead>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>{user.name}</td>
-                    <td>{user.age}</td>
-                    <td>{user.gender}</td>
-                    <td>{user.isAdult ? "성인" : ""}</td>
-                    <td>{user.isAdult}</td>
-                    <td>{user.rank}</td>
-                </tr>
-            </tbody>
-            <tfoot>
-            </tfoot>
-        </Table>
+        <>
+            <Table>
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{user.name}</td>
+                        <td>{user.age}</td>
+                        <td>{user.gender}</td>
+                        <td>{user.isAdult ? "성인" : ""}</td>
+                        <td>{user.isAdult}</td>
+                        <td>{user.rank}</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </Table>
+        </>
     )
 
 }
